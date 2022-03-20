@@ -5,7 +5,9 @@
   },
   "extends": [
     "plugin:react/recommended",
-    "airbnb"
+    "airbnb",
+    "airbnb-typescript",
+    "prettier"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
@@ -13,12 +15,10 @@
       "jsx": true
     },
     "ecmaVersion": "latest",
-    "sourceType": "module"
+    "sourceType": "module",
+    "project": "./tsconfig.json"
   },
-  "plugins": [
-    "react",
-    "@typescript-eslint"
-  ],
+  "plugins": ["react", "@typescript-eslint"],
   "rules": {
     "no-console": "warn",
     "react/jsx-filename-extension": [
