@@ -40,6 +40,12 @@
         "ts": "never",
         "tsx": "never"
       }
+    ],
+    "no-restricted-imports": [
+      "error",
+      {
+        "patterns": ["@mui/*/*/*", "!@mui/material/test-utils/*"]
+      }
     ]
   },
   "settings": {

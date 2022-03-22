@@ -1,5 +1,11 @@
-import React, { FC } from 'react';
+import React, { FC } from "react";
 
-const App: FC = () => <h1>Hello World of Chaos</h1>;
+import CssBaseline from "@mui/material/CssBaseline";
+
+const App: FC = () => (
+  <CssBaseline>
+    <h1>Going Sunny</h1>
+  </CssBaseline>
+);
 
 export default App;
