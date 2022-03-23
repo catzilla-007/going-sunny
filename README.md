@@ -1,6 +1,6 @@
-# going-sunny
+# Going Sunny UI
 
-Main UI for Going Sunny Hydrophonics IoT System
+Main UI for Going Sunny Hydrophonics IoT System. Both works in browser and mobile phones.
 
 ## Setup
 
