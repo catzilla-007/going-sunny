@@ -1,6 +1,7 @@
 # Going Sunny UI
 
 Main UI for Going Sunny Hydrophonics IoT System. Both works in browser and mobile phones.
+This project will display sensor information live from the sensors.
 
 ## Setup
 
